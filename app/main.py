@@ -9,7 +9,6 @@ from disnake.ui import View, Button
 # declare intents and initialize bot as client
 intents = Intents.default()
 intents.members = True
-intents.messages = True
 bot = commands.Bot(command_prefix="-", intents=intents, help_command=None)
 
 # Load the current high number from JSON
